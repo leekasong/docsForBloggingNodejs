@@ -44,14 +44,6 @@ $(function(){
 
       getData(chartData)
 
-  /*    var chartProperties = {
-        "caption": "Variation of temperature and humidity in Seoul",
-        "numberprefix": "",
-        "xAxisName": "시간(hour)",
-        "pYAxisName": "습도(%)",
-        "sYAxisName": "기온(C)"
-      };*/
-
       var categoriesArray = [{
           "category" : response["categories"]
       }];
